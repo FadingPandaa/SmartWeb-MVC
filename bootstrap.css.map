@@ -1,0 +1,29 @@
+﻿@model house_company.Models.house_info
+
+<h2>Enter House Details</h2>
+
+<form asp-action="Index" method="post">
+    <div>
+        <label>House Type:</label>
+        <input asp-for="HouseType" class="form-control" />
+    </div>
+
+    <br />
+
+    <div>
+        <label>Location:</label>
+        <input asp-for="Location" class="form-control" />
+    </div>
+
+    <br />
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+@if (Model != null && !string.IsNullOrEmpty(Model.HouseType))
+{
+    <hr />
+    <h3>Submitted Information</h3>
+    <p><strong>House Type:</strong> @Model.HouseType</p>
+    <p><strong>Location:</strong> @Model.Location</p>
+}

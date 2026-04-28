@@ -1,0 +1,34 @@
+//This is the main entry point for the ASP.NET Core application.
+var builder = WebApplication.CreateBuilder(args);
+
+//Adds services to the container.
+builder.Services.AddControllersWithViews();
+
+//Builds the application.
+var app = builder.Build();
+
+//Configure the HTTP request pipeline.
+if (!app.Environment.IsDevelopment())
+{
+    //The default error handling route.
+    app.UseExceptionHandler("/Home/Error");
+    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
+    app.UseHsts();
+}
+
+//Handles the redirection to HTTPS and serves static files.
+app.UseHttpsRedirection();
+app.UseStaticFiles();
+
+//Sets up routing for the application.
+app.UseRouting();
+
+//Handles authorization.
+app.UseAuthorization();
+
+//This map defines the default route for the application.
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.Run();

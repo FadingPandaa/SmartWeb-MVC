@@ -1,0 +1,9 @@
+﻿namespace house_company.Models
+{
+    //Model class to hold house information.
+    public class house_info
+    {
+        public string HouseType { get; set; }
+        public string Location { get; set; }
+    }
+}
