@@ -67,7 +67,7 @@ Use .NET CLI: dotnet build
 * Enhance dynamic features
 
 -------------------------
-##👨‍💻Author: 
+## 👨‍💻Author: <br>
 Keabetswe Masole
 
 Software Used: <br> 
