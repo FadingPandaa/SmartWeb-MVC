@@ -67,8 +67,8 @@ Use .NET CLI: dotnet build
 * Enhance dynamic features
 
 -------------------------
-👨‍💻Author: 
+##👨‍💻Author: 
 Keabetswe Masole
 
-Software Used: 
+Software Used: <br> 
 Visual Studio 2022
