@@ -1,4 +1,4 @@
-📖 Project Overview
+## 📖 Project Overview
 
 This project is an ASP.NET web application. It builds on previous tasks by introducing more structured development practices and enhanced functionality.
 
@@ -10,7 +10,7 @@ The project demonstrates:
 - Structured and scalable web application design
 
 ------------------
-🚀 Features
+## 🚀 Features
 
 ✅ Multi-page web application
 
@@ -23,7 +23,7 @@ The project demonstrates:
 ✅ Organized and maintainable code
 
 ------------------------
-🛠️ Technologies Used
+## 🛠️ Technologies Used
 
 * C#
 * ASP.NET MVC
@@ -32,7 +32,7 @@ The project demonstrates:
 * Visual Studio
 
 -----------------
-▶️ How to Run
+## ▶️ How to Run
 
 Using Visual Studio:
 
@@ -44,7 +44,7 @@ Use .NET CLI: dotnet build
               dotnet run
                   
 -------------------
-🔄 How It Works
+## 🔄 How It Works
 
 1. The application starts and loads the default page
 2. Controllers process user requests
@@ -52,14 +52,14 @@ Use .NET CLI: dotnet build
 4. Users interact with the system through navigation and input
 
 --------------------
-⚠️ Limitations
+## ⚠️ Limitations
 
 - Limited advanced functionality
 - No database integration
 - Basic UI design
 
 ---------------------
-📈 Future Improvements
+## 📈 Future Improvements
 
 * Add database integration
 * Improve UI/UX design
